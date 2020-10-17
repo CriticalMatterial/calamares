@@ -8,15 +8,9 @@ destination4=$HOME"/ARCO/ARCOLINUX-REPO/arcolinux_repo_testing/x86_64/"
 destination5=$HOME"/ARCO/ARCOLINUX-REPO/arcolinux_repo_xlarge/x86_64/"
 destination6=$HOME"/ARCO/TEST/"
 
-destiny=$destination4
+destiny=$destination3
 
-# 2. makepkg"
-# 1. chroot"
-
-
-search1=$(basename "$PWD")
-search2=arcolinux
-
+search1="arco-calamares"
 search=$search1
 
 tput setaf 2
@@ -41,7 +35,7 @@ rm -rf pkg src
 echo "deleting unnecessary files"
 echo "#############################################################################################"
 
-rm calamares-*
+rm -r calamares*
 
 tput setaf 8
 echo "#############################################################################################"
