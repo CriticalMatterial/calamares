@@ -3,11 +3,12 @@
 pkgname=arcolinux-kpmcore
 _pkgname=kpmcore
 pkgver=4.1.0
-pkgrel=1
+pkgrel=2
 pkgdesc="Library for managing partitions"
 arch=(x86_64)
 url="https://www.kde.org/applications/system/kdepartitionmanager/"
 license=(GPL2)
+conflicts=('kpmcore')
 depends=(smartmontools kwidgetsaddons ki18n kauth qca)
 makedepends=(extra-cmake-modules)
 optdepends=('e2fsprogs: ext2/3/4 support'
