@@ -195,6 +195,7 @@ desktop_environments = [
     DesktopEnvironment('/usr/bin/dwm', 'dmw'),
     DesktopEnvironment('/usr/bin/jwm', 'jwm'),
     DesktopEnvironment('/usr/bin/icewm-session', 'icewm-session'),
+    DesktopEnvironment('/usr/bin/fvwm3', 'fvwm3'),
 ]
 
 

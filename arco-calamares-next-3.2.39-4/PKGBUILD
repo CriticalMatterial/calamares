@@ -2,8 +2,8 @@
 
 pkgname=arco-calamares-next
 _pkgname=calamares
-pkgver=3.2.36
-pkgrel=6
+pkgver=3.2.39
+pkgrel=4
 pkgdesc='Distribution-independent installer framework'
 arch=('i686' 'x86_64')
 license=(GPL)
@@ -28,13 +28,13 @@ source=("$_pkgname-$pkgver::$url/download/v$pkgver/$_pkgname-$pkgver.tar.gz"
 	"cal-arcolinux-debugging.desktop"
 	"calamares_polkit")
 
-sha256sums=('a6003499182520139b34d510228ccdcba12f2504a61d117e90de048ea2f8b6de'
+sha256sums=('406772e3d46775120147707e67b8976c5cb1e60c573b618735873e8afd33e3bc'
             '24f4f408f65de55f0ff07ca44a8c70f9b66f0662f3e8fdef1f619390ad0896d1'
             '830b6e2efaf794dd3c0503dc990249742ac97b8a92a414b2c1cdc9d562864aed'
-            'be27d292b29cd29ef79ab1975f9e6b1497f96987d862698f7ef04bf4e4a5ed55'
+            '6483d0006bb007eb36067a31c7ff79df38fcab2a79ecb43e9dc4be34beb81ec4'
             '0a9eb0362012374f977a620b9f9f7e23befa8c9695b78b0f77d2d535877f9104'
-            '95a547dfc3a0362cdbd8829cbf59a11c571169120533d491b3c6d0fbd32fb322'
-            '78a5ac756248e323dd8373f2164cab2b88b3e539ddc901d1452e3caa9150dc2d'
+            'fd884147b0166e8115d8128282db8c2b00a93f81c17d8defd18e1fe01a377d1b'
+            '7c38fc1461307e4aff9b72922c6406789776a8252521618c5dcbe85beccb04f5'
             '966c5f0834039dc6a7529e75f70417ba2510b1e643ffb49fd25855ce9dc244b4')
 
 pkgver() {
